@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global News - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">Latest News</a></li>
+            <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Contact Us</h1>
+        <p><em>We'd love to hear from you. Register or send us a message.</em></p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Registration Form</h2>
+            <!-- Simple contact/registration form -->
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="username">Name:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                
+                <button type="submit">Register</button>
+            </form>
+            <p id="error-message" style="color: red; display: none; margin-top: 10px;">Please fill out all required fields.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Global News. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

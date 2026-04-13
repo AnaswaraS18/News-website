@@ -1,0 +1,145 @@
+/* Basic reset to remove default margins */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Page background color */
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Styled navigation menu */
+nav {
+    background-color: #1a365d;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header section styling */
+header {
+    background-color: #2b6cb0;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Different font styles for headings */
+h1 {
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    color: #2b6cb0;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Table styling (includes borders, padding, colors) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #cbd5e0;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #edf2f7;
+    color: #2d3748;
+}
+
+tr:nth-child(even) {
+    background-color: #f7fafc;
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    background-color: #2b6cb0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #1a365d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a365d;
+    color: white;
+    margin-top: 40px;
+}
